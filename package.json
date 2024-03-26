@@ -1,5 +1,5 @@
 {
-	"name": "luniASM-lsp",
+	"name": "luniasm-lsp",
 	"description": "Luni ASM Language Server",
 	"author": "Casper & Bitluni",
 	"license": "MIT",
@@ -16,14 +16,11 @@
 	"engines": {
 		"vscode": "^1.75.0"
 	},
-	"activationEvents": [
-		"onLanguage:luniasm"
-	],
 	"main": "./client/out/extension",
 	"contributes": {
 		"configuration": {
 			"type": "object",
-			"title": "Luni ASM configuration",
+			"title": "Luni ASM LSP Configuration",
 			"properties": {
 				"languageServerLuniASM.maxNumberOfProblems": {
 					"scope": "resource",
@@ -48,8 +45,9 @@
 			{
 				"id": "luniasm",
 				"extensions": [
-					".lsm"
-				]
+					".lsm",".luniasm"
+				],
+				"configuration": "./luniasm-language-configuration.json"
 			}
 		],
 		"grammars": [
