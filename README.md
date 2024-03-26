@@ -4,7 +4,7 @@ Luni ASM Language Server (work in progress)
 
 ## Functionality
 
-This Language Server works for .lsp file. It has the following language features:
+This Language Server works for .lsm file. It has the following language features:
 - Completions
 - Diagnostics regenerated on each file change or configuration change
 
