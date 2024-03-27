@@ -25,7 +25,7 @@ This Language Server works for .lsm file. It has the following language features
 
 2 Make your own changes and compile extension
 
-<code> npm run compile </code
+<code> npm run compile </code>
 
 3 Correct all YOUR errors and compile again
 
