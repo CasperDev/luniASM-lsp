@@ -18,3 +18,21 @@ This Language Server works for .lsm file. It has the following language features
 - Click "Install from VSIX..."
 - Choose luniASM-lsp-0.1.0.vsix file
 
+## Build (make your own)
+1 Clone this repo
+
+<code> git clone https://github.com/CasperDev/luniASM-lsp.git </code>
+
+2 Make your own changes and compile extension
+
+<code> npm run compile </code
+
+3 Correct all YOUR errors and compile again
+
+4 Package extension to release
+
+<code> vsce package </code>
+
+5 Install your new awesome extension
+
+
